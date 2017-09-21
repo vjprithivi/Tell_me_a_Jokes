@@ -4,9 +4,9 @@ android {
     signingConfigs {
         free {
             keyAlias 'jokes'
-            keyPassword '9842115849'
+            keyPassword ''
             storeFile file('H:/Project Nanodegree/freekeystone1_0.jks')
-            storePassword '9842115849'
+            storePassword ''
         }
 
     }
@@ -36,6 +36,11 @@ android {
                 }*/
 
     }
+
+
+    configurations {
+        compile.exclude group: "org.apache.httpcomponents", module: "httpclient"
+    }
     productFlavors {
         paid {
             applicationId 'com.techsofficial.prithivi.tellmeajokes.paid'
@@ -53,10 +58,10 @@ dependencies {
     })
     compile project(path: ':jokedisplay')
 
-    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.android.support:design:25.1.0'
-    compile 'com.android.support:cardview-v7:25.1.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
     compile 'com.google.code.findbugs:jsr305:2.0.1'
     compile 'com.android.support:multidex:1.0.1'
     freeCompile 'com.google.android.gms:play-services-ads:9.0.2'
@@ -65,4 +70,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(path: ':backend', configuration: 'android-endpoints')
     compile 'com.android.support:support-annotations:25.1.0'
+    compile('com.google.apis:google-api-services-books:v1-rev80-1.21.0') {
+        exclude module: 'httpclient'
+        exclude group: 'org.apache.httpcomponents'
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+    }
 }
