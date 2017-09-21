@@ -8,11 +8,11 @@ Project loads joke from GCE module via an AsyncTask.
 
 #Screenshots
 
-<img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/1.jpg"  width="270" height="480"/>
-<img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/2.jpg"   width="270" height="480"/>
-<img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/3.jpg" width="270" height="480">
-<img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/4.jpg"    width="270" height="480"/>
-
+<img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/1.jpg"  align = "left" width="270" height="480"/>
+<img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/2.jpg" align = "left"  width="270" height="480"/>
+<img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/3.jpg" align = "left" width="270" height="480"/>
+<img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/4.jpg"  align = "left"  width="270" height="480"/>
+<br>
 ## Features
 <ul style="list-style-type:disc">
 <li>Tell Me a Joke contains a Java library for supplying jokes.</li><br>
