@@ -29,5 +29,6 @@ Project loads joke from GCE module via an AsyncTask.
  
 ##App is now available on Google Play
 <a href='https://play.google.com/store/apps/details?id=com.techsofficial.prithivi.tellmeajokes.free&utm_source=vjprithivi@gmail.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a><br>
-<a href='https://play.google.com/store/apps/details?id=com.techsofficial.prithivi.tellmeajokes.paid&utm_source=vjprithivi@gmail.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a <br>
+<a href='https://play.google.com/store/apps/details?id=com.techsofficial.prithivi.tellmeajokes.paid&utm_source=vjprithivi@gmail.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
+</a> <br>
 Google Play and the Google Play logo are trademarks of Google Inc.
