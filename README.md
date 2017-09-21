@@ -7,10 +7,12 @@ It has a dedicated Java library to supply jokes to the Google Cloud Endpoint (GC
 Project loads joke from GCE module via an AsyncTask.
 
 #Screenshots
+
 <img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/1.jpg"  width="270" height="480">
 <img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/2.jpg"   width="270" height="480">
 <img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/3.jpg" width="270" height="480">
 <img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/4.jpg"    width="270" height="480">
+
 ## Features
 <ul style="list-style-type:disc">
 <li>Tell Me a Joke contains a Java library for supplying jokes.</li><br>
