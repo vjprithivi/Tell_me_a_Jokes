@@ -18,6 +18,7 @@
         android:id="@+id/button_joke"/>
 
     <TextView
+        android:id="@+id/preumin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/adView"
@@ -31,7 +32,7 @@
         ads:adSize="BANNER"
         ads:adUnitId="@string/banner_ad_unit_id"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
+
         android:layout_gravity="center_horizontal|bottom">
     </com.google.android.gms.ads.AdView>
 
