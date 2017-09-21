@@ -9,9 +9,10 @@ Project loads joke from GCE module via an AsyncTask.
 #Screenshots
 
 <img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/1.jpg"  align = "left" width="270" height="480"/>
+
 <img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/2.jpg" align = "left"  width="270" height="480"/>
 <img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/3.jpg" align = "left" width="270" height="480"/>
-<img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/4.jpg"  align = "left"  width="270" height="480"/>
+<img src="https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/4.jpg"  align = "center"  width="270" height="480"/>
 
 ## Features
 <ul style="list-style-type:disc">
