@@ -1,4 +1,4 @@
-# Tell_me_jokes
+# Tell me a Joke
 Nanodegree - Build It Bigger<br>
 Tell Me a Joke (Free) is an Android app loads jokes from Google Cloud Endpoint and uses a separate java library to display the jokes.
 The app is divided into two Flavours Paid and the Free Version. 
