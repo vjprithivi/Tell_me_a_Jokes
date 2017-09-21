@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -30,7 +31,31 @@ public class MainActivity extends AppCompatActivity implements GCEAsync.Callback
 
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId(getResources().getString(R.string.institial_ad_unit));
+       TextView preumin =(TextView) findViewById(R.id.preumin);
 
+        preumin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+
+
+                    Uri uril = Uri.parse("market://details?id=com.techsofficial.prithivi.tellmeajokes.paid");
+
+                    Intent intent1 = new Intent(Intent.ACTION_VIEW, uril);
+
+                    startActivity(intent1);
+                } catch (ActivityNotFoundException e) {
+                    // TODO: handle exception
+                    Uri uril = Uri
+                            .parse("http://paly.google.com/store/apps/details?id=com.techsofficial.prithivi.tellmeajokes.paid"
+                                   );
+
+                    Intent intent1 = new Intent(Intent.ACTION_VIEW, uril);
+
+                    startActivity(intent1);
+                }
+            }
+        });
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
