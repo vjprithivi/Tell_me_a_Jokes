@@ -5,7 +5,7 @@ The app is divided into two Flavours Paid and the Free Version.
 Free Version loads banner ads and interstitial ads between activities.
 It has a dedicated Java library to supply jokes to the Google Cloud Endpoint (GCE).
 Project loads joke from GCE module via an AsyncTask.
-![](https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/1.jpg | width=100)
+![](https://github.com/vjprithivi/Tell_me_jokes/blob/master/screenshort/1.jpg =250x250)
 
 Features
 Tell Me a Joke contains a Java library for supplying jokes.
