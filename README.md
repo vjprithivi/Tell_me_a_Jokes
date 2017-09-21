@@ -24,6 +24,7 @@ Project loads joke from GCE module via an AsyncTask.
 <li>Free app variant displays interstitial ads between the main activity and the joke-displaying activity.</li><br>
 <li>App displays a loading indicator while the joke is being fetched from the server.</li><br>
 <li>Gradle task that starts the GCE dev server, runs all the Android tests and shuts down the dev server</li><br>
+  </ul>
 ##App is now available on Google Play
 <a href='https://play.google.com/store/apps/details?id=id=com.techsofficial.prithivi.tellmeajokes.free&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a><br>
 <a href='https://play.google.com/store/apps/details?id=id=com.techsofficial.prithivi.tellmeajokes.paid&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a> <br>
